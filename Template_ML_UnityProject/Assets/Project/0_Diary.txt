@@ -1,0 +1,8 @@
+●日報
+▼2021/5/12
+・MagicLeap開発着手
+・Unityでの環境構築・ビルドテスト
+・Templateをベースにプロジェクトを作成
+・機材をファクトリーリセット、The Labの設定、SDKなどのインポート、projectファイル整理
+・Zero Iteration設定
+
