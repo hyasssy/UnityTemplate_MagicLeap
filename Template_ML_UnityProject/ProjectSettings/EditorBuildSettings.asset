@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MagicLeap/Scenes/HelloCube.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Project/Main/main.unity
+    guid: 59154e479f5f1478a867fa7c9d02a192
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: e01c23ed1c2df428cad25e467225af38,
       type: 2}

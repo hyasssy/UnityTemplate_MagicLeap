@@ -1,8 +1,19 @@
 ●日報
 ▼2021/5/12
-・MagicLeap開発着手
-・Unityでの環境構築・ビルドテスト
-・Templateをベースにプロジェクトを作成
-・機材をファクトリーリセット、The Labの設定、SDKなどのインポート、projectファイル整理
-・Zero Iteration設定
+- MagicLeap開発着手
+- Unityでの環境構築・ビルドテスト
+- Templateをベースにプロジェクトを作成
+- 機材をファクトリーリセット、The Labの設定、SDKなどのインポート、projectファイル整理
+- Zero Iteration設定
 
+▼5/21
+- DebugLogPanelの実装。
+まだ実機のテストはしていない。
+To do
+- inputのML実機でのテスト
+- MLのUI操作テスト
+- テンプレートとして公開
+- 有料アセット入れて自分のリポジトリに反映
+・Console Pro
+・Modern UI Pack
+・DoTween

@@ -34,4 +34,8 @@ public class MainManager : MonoBehaviour
             }
         }
     }
+    public void LogTest()
+    {
+        Debug.Log("Test");
+    }
 }

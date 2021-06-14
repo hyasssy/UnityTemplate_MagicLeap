@@ -19,13 +19,10 @@ public class InputManager : MonoBehaviour
     public UnityEvent TriggerUp;
     public bool TriggerPressed { get; private set; } = false;
 
+
     void Start()
     {
         // Start input
-        MLInput.Start(); //入力取得開始
-        MLInput.OnControllerButtonDown += OnButtonDown; //ボタン押下に任意の関数を適用
-        MLInput.OnControllerButtonUp += OnButtonUp;  //ボタンから手を離したときに任意の関数を適用
-        _controller = MLInput.GetController(MLInput.Hand.Left);
     }
     void OnDestroy()
     {
@@ -86,6 +83,7 @@ public class InputManager : MonoBehaviour
         //トリガーの閾値はとりあえず0.5で設定。
         if (_controller.TriggerValue > 0.5f)
         {
+            Debug.Log(_controller.TriggerValue);
             if (!TriggerPressed)
             {
                 TriggerDown.Invoke();

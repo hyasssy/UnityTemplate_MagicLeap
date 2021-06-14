@@ -8,11 +8,11 @@ public class DebugLogSwitcher : MonoBehaviour
     [SerializeField]
     float pushDownDuration = 2.5f;
     float _timeCount = 0f;
-    InputManager _InputManager;
+    // InputManager _InputManager;
     public void Start()
     {
         _debugLogPanel = transform.GetChild(0).gameObject; //子にはpanelしかない想定。
-        _InputManager = FindObjectOfType<InputManager>();
+        // _InputManager = FindObjectOfType<InputManager>();
     }
     private void Update()
     {
@@ -40,10 +40,10 @@ public class DebugLogSwitcher : MonoBehaviour
         else
         {
             //バンパーボタン、トリガーを同時に長押しでパネル表示/非表示
-            if (_InputManager.BumperPressed && _InputManager.TriggerPressed)
-            {
-                return true;
-            }
+            // if (_InputManager.BumperPressed && _InputManager.TriggerPressed)
+            // {
+            //     return true;
+            // }
         }
         return false;
     }
